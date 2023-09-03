@@ -1,5 +1,14 @@
 @import"./reset.css";
 
+/* FONTE GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+
+
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
