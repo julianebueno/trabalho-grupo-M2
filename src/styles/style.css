@@ -15,8 +15,7 @@
 }
 /* =================================================== HEADER */
 .cabecalho {
-    padding: .5rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 1rem .5rem 1rem; 
     background-color: var(--cor-fundo-5);
 }
 .menuNavegacao {
@@ -53,8 +52,32 @@
     background-color: var(--cor-fundo-1);
     transform: scale(1.05);
 }
+/* ========================================= HEADER - RESPONSIVIDADE*/
+@media (min-width: 400px) { 
+    /* Telas maiores de 400px */
+    .cabecalho {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .linkLogoCorvoHeader h1{
+        font-size: 120%;
+    }
+}
+@media (min-width: 900px) { 
+    /* Telas maiores de 900px */
+    .cabecalho {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .linkLogoCorvoHeader h1{
+        font-size: 140%;
+    }
+    .imgLogoCorvo {
+        height: 3rem;
+    }
+}
 
-
+/* =================================================== FOOTER */
 
 /* estilizando o footer */
 /* footer {
@@ -78,3 +101,5 @@
     margin-right: 37%;
     color: white;
 } */
+
+
