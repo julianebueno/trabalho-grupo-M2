@@ -1,3 +1,24 @@
+
+import * as script from "./script.js"
+
+var link = "./cadastro.html"
+
+script.construirHeader1Botao(false, link, "Cadastro")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* classe do formulário */
 class LoginForm {
     constructor() {

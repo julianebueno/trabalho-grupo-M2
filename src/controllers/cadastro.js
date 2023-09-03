@@ -1,4 +1,21 @@
 
+import * as script from "./script.js"
+
+var link = "./login.html"
+
+script.construirHeader1Botao(false, link, "Login")
+
+
+
+
+
+
+
+
+
+
+
+
 // ====================================================== FUNÇÕES PARA MOSTRAR COR NOS ERROS
 function mudarCorErro(campo){
     campo.style.background = "#FFB6C1";

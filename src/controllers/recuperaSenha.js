@@ -1,3 +1,20 @@
+
+import * as script from "./script.js"
+
+var link = "./login.html"
+
+script.construirHeader1Botao(false, link, "Login")
+
+
+
+
+
+
+
+
+
+
+
 class Formulario {
     constructor() {
       this.emailInput = document.getElementById('email');
