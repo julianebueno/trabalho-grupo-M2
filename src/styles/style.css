@@ -13,83 +13,68 @@
     --cor-fonte-1: #EEEEEE;
     --cor-fonte-2: #222222;
 }
-
-
-
-
-
+/* =================================================== HEADER */
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #002147;
+    padding: .5rem;
+    padding-top: 1.5rem;
+    background-color: var(--cor-fundo-5);
 }
-
-/* eu optei de colocar a logo dentro de uma div pq a logo e uma imagem fazada e por isso não ia ficar legal colocar um background direto na imagem */
-.designFundoLogo {
-    margin: 1%;
-    padding: 1%;
-    height: 5%;
-    width: 5%;
-    background-color: #CCCCCC;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.designFundoLogo:hover {
-    transform: scale(1.2);
-}
-
-/* estilizando a logo do site */
-.imgLogo {
-    margin: 1%;
-    height: 30%;
-    width: 60%;
-    border-radius: 0%;
-}
-
 .menuNavegacao {
     display: flex;
-    justify-content: center;
-    margin-right: 7%;
-    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
-
-.linkPaginaInicial {
-    background-color: #ffffff;
-    box-shadow: 3px 3px 0px rgba(255, 255, 255, 0.5);      
+/* ========================================= HEADER - CONTEUDO DENTRO */
+.linkLogoCorvoHeader {
+    display: flex;
+    align-items: end;
+    text-decoration: none;
+    gap: .8rem;
     transition: 0.2s;
 }
-
-.linkPaginaInicial:hover {  
-    cursor: pointer;
-    transform: scale(1.2);
+/* estilizando a logo do site */
+.imgLogoCorvo {
+    height: 2rem;
+    -webkit-filter: drop-shadow(3px 3px 3px var(--cor-fonte-1));
+    filter: drop-shadow(2px 2px 2px var(--cor-fonte-1));
+}
+.linkLogoCorvoHeader h1{
+    color: var(--cor-fonte-1);
+    font-size: 100%;
+}
+.linkBotaoHeader {
+    background-color: var(--cor-fundo-1);
+    color: var(--cor-fonte-1);   
+    transition: 0.2s;
+}
+.linkBotaoHeader:hover {  
+    background-color: var(--cor-fundo-1);
+    transform: scale(1.05);
 }
 
-h1 {
-    color: white;
-    font-size: 190%;
-}
+
 
 /* estilizando o footer */
-footer {
+/* footer {
     display: flex;
     justify-content: space-between;
     background-color: #002147;
-}
+} */
 
-.imgBandeira {
+/* .imgBandeira {
     margin: 0.7%;
     margin-right: 2%;
     height: 3%;
     width: 3%;
-}
+} */
 
-.textoDoRodape {
+/* .textoDoRodape {
     font-size: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 37%;
     color: white;
-}
+} */

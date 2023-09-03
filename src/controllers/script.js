@@ -11,14 +11,10 @@ export function construirHeader1Botao(ehIndex, link1, texto1){
 
     var header = document.getElementById('header')
     header.innerHTML = `
-        <div class="designFundoLogo">
-            <a href="${home}"><img src="${linkImagemLogo}" alt="logoCorvo" class="imgLogo"></a>
-        </div>
-        <h1>ODIN SKOLE</h1>
         <nav class="menuNavegacao">
-            <a href="${link1}" class="btn btn-outline-primary linkPaginaInicial">${texto1}</a>
+            <a href="${home}" class="linkLogoCorvoHeader"><img src="${linkImagemLogo}" alt="logoCorvo" class="imgLogoCorvo"><h1>ODIN SKOLE</h1></a>
+            <a href="${link1}" class="btn linkBotaoHeader">${texto1}</a>
         </nav>
     `
     
 }
-
