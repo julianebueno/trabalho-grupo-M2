@@ -3,7 +3,16 @@
 /* FONTE GERAL */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --cor-fundo-1: #C37E30;
+    --cor-fundo-2: #BBCEC0;
+    --cor-fundo-3: #611546;
+    --cor-fundo-4: #305955;
+    --cor-fundo-5: #192744;
 
+    --cor-fonte-1: #EEEEEE;
+    --cor-fonte-2: #222222;
+}
 
 
 
