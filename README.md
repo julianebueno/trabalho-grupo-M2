@@ -16,12 +16,10 @@ Nisso a **Odin Skole** oferece um ensino personalizado para que o aluno consiga 
 * CSS
 * JAVASCRIPT
 
-## ✒️ Autores
+## ✒️ Contribuidores
 
-Os integrantes da squad e suas funções:
-
-* **Dilnae** - *Co-facilitador* - [Github](https://github.com/DilnaeSantos)
-* **Igor** - *Gestor de Gente e Engajamento* - [Github](https://github.com/IgorSPinto)
-* **Juliane** - *Colaboradora I* - [Github](https://github.com/julianebueno)
-* **Malena** - *Gestora de Conhecimento* - [Github](https://github.com/Wallace-Lentes)
-* **Wallace** - *Colaborador II* - [Github](https://github.com/tsarinatsarina)
+* **Dilnae** - [Github](https://github.com/DilnaeSantos) - [Linkedin](https://www.linkedin.com/in/dilnae-rennan/)
+* **Igor** - [Github](https://github.com/IgorSPinto) - [Linkedin](https://www.linkedin.com/in/igor-de-souza-pinto-8407a0207/)
+* **Juliane** - [Github](https://github.com/julianebueno) - [Linkedin](https://www.linkedin.com/in/julianebueno1/)
+* **Malena** - [Github](https://github.com/tsarinatsarina) - [Linkedin](https://www.linkedin.com/in/malena-stefano-luna-697350202/)
+* **Wallace** - [Github](https://github.com/Wallace-Lentes) - [Linkedin](https://www.linkedin.com/in/wallace-lentes-616a84209/)
