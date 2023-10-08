@@ -13,6 +13,13 @@
     --cor-fonte-1: #EEEEEE;
     --cor-fonte-2: #222222;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* =================================================== HEADER */
 .cabecalho {
     padding: 1.5rem 1rem .5rem 1rem; 
@@ -80,26 +87,26 @@
 /* =================================================== FOOTER */
 
 /* estilizando o footer */
-/* footer {
+.rodape {
     display: flex;
     justify-content: space-between;
-    background-color: #002147;
-} */
+    background-color: var(--cor-fundo-5);
+}
 
-/* .imgBandeira {
+.imgBandeira {
     margin: 0.7%;
     margin-right: 2%;
     height: 3%;
     width: 3%;
-} */
+}
 
-/* .textoDoRodape {
+.textoDoRodape {
     font-size: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 37%;
     color: white;
-} */
+}
 
 

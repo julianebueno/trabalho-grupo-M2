@@ -26,37 +26,28 @@
 
     <header id="header" class="cabecalho"></header>
 
-
-
-
-
-
-
     <!-- área principal da página -->
     <main class="formcontainer">
         
         <!-- formulário de login -->
-        <section class="form-login">
-            <form class="form">
-                <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" name="usuario" required placeholder="Digite o email de usuário">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required placeholder="Insira sua senha">
-            
-                <!-- div do butão de submit -->
-                <div class="buttons">
-                    <button id="submit" type="button">Login</button>
-                </div>
-            </form>    
+        <form class="form">
+            <label class="labelUsuario" for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required placeholder="Digite o email de usuário">
+            <label class="labelSenha" for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Insira sua senha">
 
             <!-- link para a página de recuperação de senha -->
-            <p class="linkRecuperaSenha"><a href="../html/recuperaSenha.html">Esqueci minha senha.</a></p>
-        </section>
+            <a class="linkRecuperaSenha" href="../html/recuperaSenha.html">Esqueci minha senha.</a>
+        
+            <!-- div do butão de submit -->
+            <button class="button" id="submit" type="button">Login</button>
+        </form>    
+
     </main>        
 
     <!-- Rodape com imagens de paginas de redes sociais -->
-    <footer>
-        <img src="../styles/imagens/bandeira-noruega.png" alt="bandeira da noruega" class="imgBandeira">
+    <footer class="rodape">
+        <img src="../src/images/bandeiraNoruega.png" alt="bandeira da noruega" class="imgBandeira">
         <p class="textoDoRodape">&copy; 2023 ODIN SKOLE. Todos os direitos reservados.</p>
     </footer>
 </body>

@@ -26,31 +26,22 @@
 
     <header id="header" class="cabecalho"></header>
 
-
-
-
-
-
     <!-- área principal da página -->
     <main class="formcontainer">
 
         <!-- formulário de recuperação de senha -->
-        <section class="form-login">
-            <form class="form">
-                <label for="email">Email de Recuperação:</label>
-                <input type="text" id="email" name="email" required placeholder="Digite o email de recuperação">
-            
-                <!-- div do butão de submit -->
-                <div class="buttons">
-                    <button id="submit" type="button">Enviar Email</button>
-                </div>
-            </form>    
-        </section>
+        <form class="form">
+            <label  class="labelUsuario" for="email">Email de Recuperação:</label>
+            <input type="text" id="email" name="email" required placeholder="Digite o email de recuperação">
+        
+            <!-- div do butão de submit -->
+            <button class="button" id="submit" type="button">Enviar Email</button>
+        </form>    
     </main>   
     
     <!-- Rodape com imagens de paginas de redes sociais -->
-    <footer>
-        <img src="../styles/imagens/bandeira-noruega.png" alt="bandeira da noruega" class="imgBandeira">
+    <footer class="rodape">
+        <img src="../src/images/bandeiraNoruega.png" alt="bandeira da noruega" class="imgBandeira">
         <p class="textoDoRodape">&copy; 2023 ODIN SKOLE. Todos os direitos reservados.</p>
     </footer>
 
